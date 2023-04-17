@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=Montserrat:wght@100&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+	background-position: center;
+}
+
+li {
+  list-style: none;
+  text-indent: -30px;
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  letter-spacing: 0.2em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+#weather {
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#weather span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+#weather span:last-child {
+  font-size: 12px;
+}
+#weather span:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#clock {
+  font-size: 100px;
+  margin-bottom: 60px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline-style: none;
+  border: none;
+  height: 40px;
+  line-height: 40px;
+  background-color: transparent;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #ccc;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  cursor: pointer;
+}
+
+#login-form {
+  width: 160px;
+  margin-bottom: 40px;
+}
+
+#login-form input {
+  width: 160px;
+}
+
+#login-form button {
+  display: none;
+}
+
+#todo-form input {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 0;
+  border-radius: 20px;
+}
+
+#quote {
+  position: fixed;
+  bottom: 40px;
+  width: 80%;
+  text-align: center;
+}
+
+#quote span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#quote span:last-child {
+  font-size: 12px;
+}
